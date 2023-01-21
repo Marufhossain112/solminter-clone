@@ -1,4 +1,5 @@
 import React from "react";
+import ConnectWallet from "../ts/App.tsx";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -61,13 +62,13 @@ const HomePage = () => {
                 />
               </a>
             </div>
-            <div className="px-5 mt-3 text-center">
-              <button
+            <div className="px-5 mt-3 ml-12 text-center">
+              {/* <button
                 className="w-full px-3 py-2 m-auto overflow-hidden text-sm font-bold tracking-wide text-white uppercase border-4 rounded-full wallet-bg "
                 style={{ minHeight: "2.6rem" }}
-              >
-                Connect Wallet
-              </button>
+              > */}
+              <ConnectWallet></ConnectWallet>
+              {/* </button> */}
             </div>
             <nav className="flex-grow px-5 pb-4 md:block md:pb-0">
               <div className="pt-4 pb-4 border-gray-100 ">

@@ -44,8 +44,6 @@ const Context: FC<{ children: ReactNode }> = ({ children }) => {
             new NekoWalletAdapter(),
             new AlphaWalletAdapter(),
             new BitpieWalletAdapter(),
-
-
         ],
         // eslint-disable-next-line react-hooks/exhaustive-deps
         [network]

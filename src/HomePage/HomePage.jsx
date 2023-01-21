@@ -63,7 +63,7 @@ const HomePage = () => {
             </div>
             <div className="px-5 mt-3 text-center">
               <button
-                className="w-full px-3 py-2 m-auto overflow-hidden text-sm font-bold tracking-wide text-white uppercase border-4 rounded-full bg-indigo-700 border-indigo wallet-bg "
+                className="w-full px-3 py-2 m-auto overflow-hidden text-sm font-bold tracking-wide text-white uppercase border-4 rounded-full wallet-bg "
                 style={{ minHeight: "2.6rem" }}
               >
                 Connect Wallet
@@ -73,7 +73,7 @@ const HomePage = () => {
               <div className="pt-4 pb-4 border-gray-100 ">
                 <a
                   target="_self"
-                  className="group menu-section flex items-center px-5 py-4 color-pink"
+                  className="group menu-section flex items-center px-5 py-3 "
                   href="#/token-management"
                 >
                   <img
@@ -81,11 +81,11 @@ const HomePage = () => {
                     src="https://solminter.com/static/media/icon_manage.61fedfe2.svg"
                     alt="icon"
                   />
-                  <span className="text-sm">Token management</span>
+                  <span className="text-sm menu-text">Token management</span>
                 </a>
                 <a
                   target="_self"
-                  className="group menu-section flex items-center px-5 py-2 color-pink"
+                  className="group menu-section flex items-center px-5 py-3 "
                   href="#/apply-for-ido"
                 >
                   <img
@@ -93,11 +93,11 @@ const HomePage = () => {
                     src="https://solminter.com/static/media/icon_apply_ido.06ebbe72.svg"
                     alt="icon"
                   />
-                  <span className="text-sm">Apply for IDO</span>
+                  <span className="text-sm menu-text">Apply for IDO</span>
                 </a>
                 <a
                   target="_self"
-                  className="group menu-section flex items-center px-5 py-2 color-pink"
+                  className="group menu-section flex items-center px-5 py-3 "
                   href="#/art"
                 >
                   <img
@@ -105,11 +105,11 @@ const HomePage = () => {
                     src="https://solminter.com/static/media/icon_nft.d8e9f1af.svg"
                     alt="icon"
                   />
-                  <span className="text-sm">NFT</span>
+                  <span className="text-sm menu-text">NFT</span>
                 </a>
                 <a
                   target="_blank"
-                  className="group menu-section flex items-center px-5 py-2 color-pink"
+                  className="group menu-section flex items-center px-5 py-3 "
                   href="#/documentation"
                 >
                   <img
@@ -117,7 +117,7 @@ const HomePage = () => {
                     src="https://solminter.com/static/media/documentation_1.7ec4e17e.svg"
                     alt="icon"
                   />
-                  <span className="text-sm">Documentation</span>
+                  <span className="text-sm menu-text">Documentation</span>
                 </a>
               </div>
             </nav>

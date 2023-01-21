@@ -1,11 +1,10 @@
-/* .bg-labelbg {
-  background-color: rgb(240, 235, 244);
-} */
 .bg-imbg {
   background-color: rgb(240, 235, 244);
 }
 .color-pink {
-  color: rgb(98, 33, 84);
+  color: #552A5E;
+}
+.menu-text {
   font-weight: 500;
 }
 .wallet-bg {

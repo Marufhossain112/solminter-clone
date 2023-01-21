@@ -1,0 +1,14 @@
+/* .bg-labelbg {
+  background-color: rgb(240, 235, 244);
+} */
+.bg-imbg {
+  background-color: rgb(240, 235, 244);
+}
+.color-pink {
+  color: rgb(98, 33, 84);
+  font-weight: 500;
+}
+.wallet-bg {
+  background: #4b1d54;
+  border: 4px solid #b133cf;
+}
